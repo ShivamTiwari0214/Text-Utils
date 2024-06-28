@@ -52,10 +52,7 @@ export default function Nav(props) {
               </Link>
             </li>
           </ul>
-          
-        </div>
-      </div>
-      <div className="form-check form-switch py-3 w-25 ">
+           <div className="form-check form-switch py-3 w-25 ">
         <input
           className="form-check-input primary"
           type="checkbox"
@@ -67,6 +64,9 @@ export default function Nav(props) {
           Dark Mode
         </label>
       </div>
+        </div>
+      </div>
+     
      
     </nav>
   );
